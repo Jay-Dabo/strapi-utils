@@ -1,5 +1,5 @@
 {
-    "name": "strapi-utils",
+    "name": "strapi-utility",
     "version": "4.6.2",
     "description": "Strapi Utility Package",
     "main": "./lib",
