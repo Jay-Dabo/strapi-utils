@@ -1,38 +1,35 @@
 {
-  "name": "@strapi/utils",
-  "version": "4.6.2",
-  "description": "Strapi Utility Package",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jay-Dabo/strapi-utils.git"
-  },
-  "author": "Jeffrey K. D. A. Amoah",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Jay-Dabo/strapi-utils/issues"
-  },
-  "homepage": "https://github.com/Jay-Dabo/strapi-utils#readme",
-"main": "./lib",
-  "directories": {
-    "lib": "./lib"
-  },
-  "scripts": {
-    "test:unit": "jest --verbose"
-  },
-  "dependencies": {
-    "@sindresorhus/slugify": "1.1.0",
-    "date-fns": "2.29.3",
-    "http-errors": "1.8.1",
-    "lodash": "4.17.21",
-    "p-map": "4.0.0",
-    "yup": "0.32.9"
-  },
-  "engines": {
-    "node": ">=14.19.1 <=18.x.x",
-    "npm": ">=6.0.0"
-  },
+    "name": "@strapi/utils",
+    "version": "4.6.2",
+    "description": "Strapi Utility Package",
+    "main": "./lib",
+    "directories": {
+        "lib": "./lib"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "test:unit": "jest --verbose"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Jay-Dabo/strapi-utils.git"
+    },
+    "author": "Jeffrey K. D. A. Amoah",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Jay-Dabo/strapi-utils/issues"
+    },
+    "homepage": "https://github.com/Jay-Dabo/strapi-utils#readme",
+    "dependencies": {
+        "@sindresorhus/slugify": "1.1.0",
+        "date-fns": "2.29.3",
+        "http-errors": "1.8.1",
+        "lodash": "4.17.21",
+        "p-map": "4.0.0",
+        "yup": "0.32.9"
+    },
+    "engines": {
+        "node": ">=14.19.1 <=18.x.x",
+        "npm": ">=6.0.0"
+    }
 }
